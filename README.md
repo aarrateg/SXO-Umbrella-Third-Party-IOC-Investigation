@@ -1,8 +1,6 @@
 ![License: CISCO](https://img.shields.io/badge/License-CISCO-blue.svg)
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/<REPO-HERE>)
 
-# SXO-Hackathon-Exodus
-Sample SXO workflow for FY21 Hackathon. By Exodus team
 
 ## Features
 * The workflow takes a JSON file from the web, which is the description of a threat feed, including observables, and automatically parses it and processes it through Threat Response.

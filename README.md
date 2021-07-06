@@ -56,15 +56,25 @@ The Casebook creation and the Incident creation will also be notified to Webex T
 
 2. In the left hand menu, select **Variables**.
 
-3. Configure the required global variables, as listed in the section **Required Global Variables** above.
+3. Configure the required global variables, as listed in the section **Required Global Variables** above:
+
+* Webex Teams Room. String Containing the Webex Room where alerts should be pushed.
+    ![image](https://user-images.githubusercontent.com/86785216/124569743-824b9300-de46-11eb-95df-d0d9dc9cc466.png)
+
 
 ### Import atomic actions
 
 1. In the left pane menu, select **Workflows**. Click on **IMPORT** to import the workflow.
 
+![image](https://user-images.githubusercontent.com/86785216/124569981-be7ef380-de46-11eb-8fb3-e7b7dc2f6b18.png)
+
+
 2. Choose to import from Git.
 
 3. Under GIT REPOSITORY, select GitHub_Target_Atomics.
+
+![image](https://user-images.githubusercontent.com/86785216/124570069-d35b8700-de46-11eb-9337-f9bbda125373.png)
+
 
 4. Make sure to import all the Atomic action listed above, in the section named **Required Atomic Workflows**. Please don't use **IMPORT AS A NEW WORKFLOW (CLONE)**, because you need to make sure that the main workflow finds the original atomic actions identifiers.
 
@@ -72,11 +82,24 @@ The Casebook creation and the Incident creation will also be notified to Webex T
 
 1. In the left pane menu, select **Workflows**. Click on **IMPORT** to import the workflow.
 
+![image](https://user-images.githubusercontent.com/86785216/124570362-17e72280-de47-11eb-87f7-70fdc8396818.png)
+
 2. Click on **Browse** and copy paste the content of the [False Negative Check-MispFeed.json](False%20Negative%20Check%20-%20MISP%20Feed.json) file inside of the text window.  Select **IMPORT AS A NEW WORKFLOW (CLONE)** and click on **IMPORT**.
 
-3. Configure the required targets and accounts, as listed in the sections **Required Targets** and **Required Account Keys** above.
+![image](https://user-images.githubusercontent.com/86785216/124570295-0a319d00-de47-11eb-82e8-3d405253b337.png)
 
-4. Make sure that the HTTPS server that you're using in the very first action contains a JSON file describing the threat feed, formatted according to MISP standard. A sample file can be found in this repository, as [sample-observable-feed.json](sample-observable-feed.json).
+
+3. Configure the required targets and accounts, as listed in the sections **Required Targets**  above.
+
+![image](https://user-images.githubusercontent.com/86785216/124570430-29302f00-de47-11eb-9d7d-8f1ec606ffac.png)
+
+
+4. Configure the required targets and accounts, as listed in the sections **Required Account Keys** above.
+
+![image](https://user-images.githubusercontent.com/86785216/124570476-3816e180-de47-11eb-97e9-2d6c9c97f351.png)
+
+
+5. Make sure that the HTTPS server that you're using in the very first action contains a JSON file describing the threat feed, formatted according to MISP standard. A sample file can be found in this repository, as [sample-observable-feed.json](sample-observable-feed.json).
 
 ## Notes
 

@@ -27,3 +27,7 @@ Customer need:
 
 Cisco Threat Response (with AMP and Umbrella integrated, at least); Webex.
 
+## Learning Secure X Orchestration (SXO)
+It's highly advised to go through the Secure X Orchestration on DevNet (https://developer.cisco.com/learning/modules/SecureX-orchestration) to get familiarized with the tool. 
+
+
